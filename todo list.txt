@@ -1,0 +1,6 @@
+1. Fix the audios for the cannon and laser - cannon has to be ultra short and spammable. Laser has to be ultra long audio clip of laser
+2. Fix the positions of the clock and the enemy healthbars
+3. fix the crosshair; probably use fancy css and borders
+4. Add sounds for collector spawns and deaths
+5. Add images for collectors/possible gun
+6. Add reaper speech to trigger mid fight

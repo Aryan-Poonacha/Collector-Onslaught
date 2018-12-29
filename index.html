@@ -1,0 +1,102 @@
+<!DOCTYPE html5>
+<html>
+<head>
+
+	<title>
+		Collector Onslaught
+	</title>
+
+  <!-- FAVICON LINK -->
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  
+	<!-- JQUERY LINK -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- BOOTSTRAP LINKS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- CUSTOM CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- CUSTOM JS -->
+	<script src="script.js"></script>
+
+</head>
+
+<body>
+	<section id="shooting-area">
+
+		<div class="container drawing-area">
+		</div>
+
+	</section>
+
+	<section id="hud">
+		<div class="container-fluid">
+
+				<div class="row footer">
+					<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+
+						<div class="well well-sm healthbar-parent">
+
+						</div>
+
+					</div>
+				</div>
+
+		</div>
+	</section>
+
+<!-- Modal -->
+<div class="modal fade startgame-modal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Collector Onslaught</h4>
+      </div>
+      <div class="modal-body">
+        <p>The collectors, an ancient alien race, are sending their hordes to fight you. You're in charge of the SSV Normandy SR-2, a spaceship armed with the latest in Alliance weaponry, and you're going to need to fend them off for as long as you can.</p>
+        <p>NOTE: It's highly recommended you use fullscreen while playing the game for the optimal experience. (Press <kbd>F11</kbd> )</p>
+        <p>Controls:</p>
+        <p>Use the arrows keys <kbd>&larr;</kbd> <kbd>&uarr;</kbd> <kbd>&rarr;</kbd> <kbd>&darr;</kbd> to move the targeting system and press <kbd>Spacebar</kbd> to fire.</p>
+        <p>Press <kbd>1</kbd> to switch to your Thanix single-fire cannon. Each tap of the <kbd>Spacebar</kbd> will fire a new shot. The Thanix cannon is semi-automatic.</p>
+        <p>Press <kbd>2</kbd> to switch to the the suppressing constant-firing laser. Hold down the <kbd>Spacebar</kbd> to fire the laser. The longer you hold it down, the more damage it does. After a certain threshold, it will instantly kill an enemy.</p>
+        <p>Keep them at bay for as long as you can, commander. Hacket out.</p>
+<br>
+                <br>
+        <p>Made by Aryan Poonacha for CS50's final project.</p>
+        <p>All audio and image assets used belong to their respective copyright owners.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default startgame-button" data-dismiss="modal">Understood</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade endgame-modal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Defeated!</h4>
+      </div>
+      <div class="modal-body endgame-modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" onclick="magic()">Restart</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
